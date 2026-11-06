@@ -37,3 +37,4 @@ else
 fi
 
 az webapp show --resource-group "$RESOURCE_GROUP" --name "$WEBAPP_NAME" --query '{name:name,url:defaultHostName,state:state}' -o table
+
